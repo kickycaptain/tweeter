@@ -1,0 +1,33 @@
+main {
+    padding-top: 50px;
+}
+
+textarea {
+    min-width: 600px;
+}
+
+.tweet-ui {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+textarea {
+    border: none;
+    overflow: auto;
+    outline: none;
+    background-color: #f4f1ec;
+    
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+
+    resize: none; /*remove the resize handle on the bottom right*/
+}
+
+#tweet-button {
+    color: #FFFFFF;
+    background-color: #4056A1;
+    font-family: 'Bungee';
+    font-weight: 300;
+}
