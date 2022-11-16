@@ -22,6 +22,7 @@
 
     <!-- App JS -->
     <script type="text/javascript" src="/scripts/client.js"></script>
+    <script type="text/javascript" src="/scripts/composer-char-counter.js"></script>
   </head>
 
   <body>
@@ -44,7 +45,8 @@
     <main class="container">
       <section class="new-tweet">
         <form method="POST" action="/tweets">
-          <textarea name="text" rows="1" id="tweet-text">What are you humming about?</textarea>
+          <label for="tweet-text">What are you humming about?</label>
+          <textarea name="text" rows="3" id="tweet-text"></textarea>
           <hr>
           <div class="tweet-ui">
             <button id="tweet-button" type="submit">Tweet</button>
