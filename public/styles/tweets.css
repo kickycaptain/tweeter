@@ -1,0 +1,58 @@
+.inner-container {
+    justify-content: center;
+    flex-direction: column;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px;
+    padding: 5px;
+    border-style: solid;
+}
+
+.inner-container:hover {
+    box-shadow: 10px 10px lavender;
+}
+
+.tweet-body {
+    padding-left: 10px;
+}
+
+.handle {
+    padding: 6px;
+    color: powderblue;
+}
+
+.tweet-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer {
+    font-size: small;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fa-flag {
+    color: royalblue;
+}
+.fa-flag:hover {
+    color: goldenrod;
+}
+
+.fa-retweet {
+    color: royalblue;
+}
+
+.fa-retweet:hover {
+    color: goldenrod;
+}
+
+.fa-heart {
+    color: royalblue;
+}
+
+.fa-heart:hover {
+    color: goldenrod;
+}

@@ -3,7 +3,7 @@ main {
 }
 
 textarea {
-    min-width: 600px;
+    min-width: 800px;
 }
 
 .tweet-ui {
@@ -30,4 +30,8 @@ textarea {
     background-color: #4056A1;
     font-family: 'Bungee';
     font-weight: 300;
+}
+
+.textarea {
+    display: flex;
 }
