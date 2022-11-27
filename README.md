@@ -10,6 +10,11 @@ Tweeter is a simple, single-page Twitter clone that runs on an express server.
 3. Start the web server using the `npm run local` command. The app will be served at <http://localhost:8080/>.
 4. Go to <http://localhost:8080/> in your browser.
 
+## Screenshots
+
+![desc](sidf)
+![desc](gksdfhgkd)
+
 ## Dependencies
 
 - Express
