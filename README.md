@@ -12,8 +12,8 @@ Tweeter is a simple, single-page Twitter clone that runs on an express server.
 
 ## Screenshots
 
-![desc](sidf)
-![desc](gksdfhgkd)
+![Desktop Layout](https://github.com/kickycaptain/tweeter/blob/master/docs/desktop-layout.PNG)
+![Mobile Layout](https://github.com/kickycaptain/tweeter/blob/master/docs/mobile-layout.PNG)
 
 ## Dependencies
 
