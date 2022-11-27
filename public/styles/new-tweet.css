@@ -1,9 +1,5 @@
 main {
-    padding-top: 50px;
-}
-
-textarea {
-    min-width: 800px;
+    padding-top: 1  50px;
 }
 
 .tweet-ui {
@@ -23,6 +19,16 @@ textarea {
     box-shadow: none;
 
     resize: none; /*remove the resize handle on the bottom right*/
+}
+
+#error-msg {
+    display: none;
+    width: 100%;
+    text-align: center;
+    color: red;
+    border: 3px;
+    border-style: solid;
+    border-color: red;
 }
 
 #tweet-button {

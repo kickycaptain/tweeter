@@ -20,10 +20,13 @@
 
     <!-- External JS -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/timeago.js/4.0.2/timeago.min.js" integrity="sha512-SVDh1zH5N9ChofSlNAK43lcNS7lWze6DTVx1JCXH1Tmno+0/1jMpdbR8YDgDUfcUrPp1xyE53G42GFrcM0CMVg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
     <!-- App JS -->
     <script type="text/javascript" src="/scripts/client.js"></script>
     <script type="text/javascript" src="/scripts/composer-char-counter.js"></script>
+
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
   </head>
 
   <body>
@@ -44,7 +47,8 @@
     <!-- Page-specific (main) content here -->
     <main class="container">
       <section class="new-tweet">
-        <form method="POST" action="/tweets">
+        <div id="error-msg">Tweet must be more than zero characters and no more than 140</div>
+        <form id="tweet-form">
           <label class="textarea" for="tweet-text">What are you humming about?</label>
           <textarea class="textarea" name="text" rows="3" id="tweet-text"></textarea>
           <hr>
@@ -54,24 +58,10 @@
           </div>
         </form>
       </section>
-    </main>
-    <br> 
-    <div id="outer-container">
-      
-      <article class="inner-container">
-        <header class="tweet-header">
-          <span><img src="https://i.imgur.com/73hZDYK.png">Newton</span> <span class="handle">@SirIsaac</span>
-        </header>
-        <br>
-        <p class="tweet-body">
-          If I have seen further it is by standing on the shoulders of giants 
-        </p>
-        <hr>
-        <footer>
-          10 days ago <span><i class="fa-solid fa-flag"></i> <i class="fa-solid fa-retweet"></i> <i class="fa-solid fa-heart"></i></span>
-        </footer>
-      </article>
+      <br> 
+    <div id="tweets-container">
     </div>
     <br>
+    </main>
   </body>
 </html>

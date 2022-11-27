@@ -1,15 +1,21 @@
-.inner-container {
-    justify-content: center;
+.username {
+    align-items: center;
+    display: flex;
+}
+
+.tweet {
+    /* justify-content: center;
     flex-direction: column;
-    width: 800px;
-    margin-left: auto;
+    width: 800px; */
+    margin-left: 10px;
     margin-right: auto;
     border: 3px;
     padding: 5px;
     border-style: solid;
+    margin-bottom: 15px;
 }
 
-.inner-container:hover {
+.tweet:hover {
     box-shadow: 10px 10px lavender;
 }
 
