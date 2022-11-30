@@ -7,6 +7,7 @@
 $(document).ready(function () {
     //adds renders the tweets from the tweet database
     const renderTweets = function (tweets) {
+        $("#tweets-container").empty();
         for (let tweet of tweets) {
             $("#tweets-container").prepend(createTweetElement(tweet));
         }
@@ -40,6 +41,7 @@ $(document).ready(function () {
         } else if ($(".counter").val() >= 0 && $(".counter").val() < 140) {
             $("#error-msg").slideUp(400);  
             $.ajax("/tweets", { data: $(this).serialize(), method: "POST" }) 
+                
                 .then(loadTweets());
         }
     }

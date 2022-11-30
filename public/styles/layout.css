@@ -60,7 +60,7 @@ main {
 
   main.container {
     width: 60%;
-    margin-top: 200px;
+    margin-top: 150px;
   }
 }
 
@@ -79,10 +79,6 @@ main {
 .tweets {
   justify-content: center;
   flex-direction: column;
-}
-
-.container {
-  height: 600px;
 }
 
 textarea {
